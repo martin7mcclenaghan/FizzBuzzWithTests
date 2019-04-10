@@ -8,6 +8,8 @@ public class Main {
         // Method simply returns whether a number is a Fizz, Buzz or Fizz Buzz number
 
        FizzBuzz decider = new FizzBuzz();
+        System.out.println(decider.FizzbuzzMethod(5));
+        System.out.println(decider.FizzbuzzMethod(33));
         System.out.println(decider.FizzbuzzMethod(4));
 
 
